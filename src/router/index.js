@@ -6,7 +6,7 @@ import {
 } from "vue-router";
 import Home from "../views/home.vue";
 import Detail from "../views/detail.vue";
-// test
+
 //定义一些路由
 //每个路由需要定义一个组件，
 const routes = [

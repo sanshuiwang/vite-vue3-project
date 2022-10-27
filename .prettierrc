@@ -3,6 +3,6 @@
   "tabWidth": 2, // 缩进大小
   "printWidth": 120, // 一行的字符数，如果超过会进行换行，默认为80
   "singleQuote": true, // 使用单引号
-  "trailingComma": "none", // 是否使用尾逗号，有三个可选值"<none|es5|all>"
+  "trailingComma": "es5", // 是否使用尾逗号，有三个可选值"<none|es5|all>"
   "semi": false // 行位是否使用分号，默认为true
 }
