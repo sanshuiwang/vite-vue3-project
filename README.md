@@ -4,12 +4,12 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) 
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-- Volar官方提供demo之一：[vue3-eslint-stylelint-demo (Volar + ESLint + stylelint + husky)](https://github.com/sethidden/vue3-eslint-stylelint-demo)
+- Volar 官方提供 demo 之一：[vue3-eslint-stylelint-demo (Volar + ESLint + stylelint + husky)](https://github.com/sethidden/vue3-eslint-stylelint-demo)
 
-- [Vue文件夹功能构成](https://www.cnblogs.com/huangchun/p/16661364.html)
+- [Vue 文件夹功能构成](https://www.cnblogs.com/huangchun/p/16661364.html)
 
-- [Vite Antd按需加载](https://www.antdv.com/docs/vue/introduce-cn#%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD)
+- [Vite Antd 按需加载](https://www.antdv.com/docs/vue/introduce-cn#%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD)
 
-- [script setup实现讨论](https://github.com/vuejs/rfcs/pull/227)
+- [script setup 实现讨论](https://github.com/vuejs/rfcs/pull/227)

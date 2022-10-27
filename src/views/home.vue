@@ -1,29 +1,31 @@
 <script setup>
-import { ref } from 'vue'
-import {useRoute,useRouter} from "vue-router"
-import {useStore} from "vuex"
+import { ref } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import { useStore } from "vuex";
 
 const store = useStore();
-const router = useRouter() //router是进行路由跳转的
+const router = useRouter(); //router是进行路由跳转的
 const onGoDetail = () => {
   router.push({
-    name: 'detail',
+    name: "detail",
     query: {
-      id: '1234567890'
-    }
-  })
-}
+      id: "1234567890",
+    },
+  });
+};
 const onAdd = () => {
-  store.commit("increment",1);
-}
+  store.commit("increment", 1);
+};
 </script>
 
 <template>
   <h1>Hello World!!!</h1>
 
   <div class="card">
-    <button type="button" @click="onAdd">count is {{ store.state.count }}</button>
-    <div>{{store.getters.totalPrice}}元</div>
+    <button type="button" @click="onAdd">
+      count is {{ store.state.count }}
+    </button>
+    <div>{{ store.getters.totalPrice }}元</div>
   </div>
 
   <div @click="onGoDetail">详情页</div>
