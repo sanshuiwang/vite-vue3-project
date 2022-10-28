@@ -1,19 +1,14 @@
 {
+  "vetur.validation.template": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.run": "onSave",
-  "files.autoSaveDelay": 3000,
-  "editor.tabSize": 2,
-  // 格式化插件设置为 prettier
-  "[html]": {
+  "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.tabSize": 2
 }

@@ -5,6 +5,8 @@ import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 
 import { resolve } from "path";
 
+import eslintPlugin from "vite-plugin-eslint";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -13,9 +15,11 @@ export default defineConfig({
       // 按需加载antd & icon
       resolvers: [AntDesignVueResolver({ resolveIcons: true })],
     }),
+    eslintPlugin(),
   ],
   resolve: {
     alias: {
+      // eslint-disable-next-line no-undef
       "@": resolve(__dirname, "./src"),
     },
   },
