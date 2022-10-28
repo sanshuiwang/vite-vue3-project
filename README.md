@@ -13,3 +13,8 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [Vite Antd 按需加载](https://www.antdv.com/docs/vue/introduce-cn#%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD)
 
 - [script setup 实现讨论](https://github.com/vuejs/rfcs/pull/227)
+
+# 让 husky 执行下边的文件
+
+chmod ug+x .husky/_
+chmod ug+x .git/hooks/_
