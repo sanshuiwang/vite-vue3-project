@@ -1,13 +1,13 @@
 // 路由配置
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/home.vue'
-import Detail from '../views/detail.vue'
+import Home from '../views/HomeApp.vue'
+import Detail from '../views/DetailApp.vue'
 
 //定义一些路由
 //每个路由需要定义一个组件，
 const routes = [
-  { path: '/', component: Home, name: 'home' },
-  { path: '/detail', component: Detail, name: 'detail' },
+  { path: '/', component: Home, name: 'HomeApp' },
+  { path: '/detail', component: Detail, name: 'DetailApp' },
 ]
 
 //穿件路由实例并传递“routes”配置

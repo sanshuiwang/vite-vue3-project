@@ -7,13 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "eslint-fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write",
     "prepare": "husky install",
     "lint": "lint-staged"
   },
   "lint-staged": {
-    "src/**": "eslint-fix"
+    "src/**": "eslint"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",

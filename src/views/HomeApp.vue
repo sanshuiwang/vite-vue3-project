@@ -25,7 +25,7 @@ const onAdd = () => {
     <div>{{ store.getters.totalPrice }}元</div>
   </div>
 
-  <div @click="onGoDetail">详情页</div>
+  <div style="color: blue" @click="onGoDetail">详情页</div>
 
   <p>
     Check out
