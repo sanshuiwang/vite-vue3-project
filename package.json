@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "npm:taobao": "npm --registry https://registry.npm.taobao.org install",
     "prettier": "prettier --write .",
     "prepare": "husky install"
   },
