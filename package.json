@@ -15,6 +15,11 @@
   "lint-staged": {
     "src/**": "eslint"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.13",
@@ -24,8 +29,10 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
     "@vitejs/plugin-vue": "^3.1.0",
     "commitizen": "^4.2.5",
+    "commitlint": "^17.1.2",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
