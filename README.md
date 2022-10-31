@@ -35,6 +35,18 @@ https://stackoverflow.com/questions/70346829/eslint-vue-multiword-components?fro
 
 - [Vite Antd 按需加载](https://www.antdv.com/docs/vue/introduce-cn#%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD)
 
+- [Antd 国际化](https://www.antdv.com/docs/vue/i18n-cn#%E5%9B%BD%E9%99%85%E5%8C%96) antd 时间控件使用 dayjs，非 moment
+
+- @ant-design/icons-vue 配置到 vite: AntDesignVueResolver({ resolveIcons})
+
+# vite less 处理 + postcss + 浏览器前缀
+
+- [vite less 处理](https://juejin.cn/post/7060351422885265415)
+
+- 支持 main.js 引入.less 文件
+  [css 在 vite 配置，javascriptEnabled 支持 js 引入.less](https://www.jianshu.com/p/4a76d68e16ec)
+  记得创建全局样式覆盖一下看看：[less 覆盖全局变量](https://www.cnblogs.com/-roc/p/16212801.html)
+
 # github 提交项目使用 Github Token
 
 [Github Token](https://juejin.cn/post/7104215580705554463#heading-1)

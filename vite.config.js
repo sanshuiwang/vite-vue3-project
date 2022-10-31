@@ -25,4 +25,16 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        // https://www.jianshu.com/p/4a76d68e16ec
+        // https://www.cnblogs.com/-roc/p/16212801.html
+        // modifyVars: {
+        //   hack: `true; @import (reference) "${resolve('src/assets/styles/color.less')}";`,
+        // },
+        javascriptEnabled: true,
+      },
+    },
+  },
 })
