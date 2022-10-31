@@ -1,15 +1,13 @@
 // 路由配置
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/HomeApp.vue'
-import Detail from '../views/DetailApp.vue'
+import Home from '@/views/HomeApp.vue'
+import Detail from '@/views/DetailApp.vue'
 
 //定义一些路由
-//每个路由需要定义一个组件，
-// name要驼峰：https://eslint.vuejs.org/rules/multi-word-component-names.html
-// 去掉name驼峰检测：https://stackoverflow.com/questions/70346829/eslint-vue-multiword-components
+//每个路由需要定义一个组件
 const routes = [
-  { path: '/', component: Home, name: 'HomeApp' },
-  { path: '/detail', component: Detail, name: 'DetailApp' },
+  { path: '/', component: Home, name: 'Home' },
+  { path: '/detail', component: Detail, name: 'Detail' },
 ]
 
 //穿件路由实例并传递“routes”配置

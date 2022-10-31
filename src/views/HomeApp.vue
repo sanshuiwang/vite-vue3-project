@@ -6,7 +6,7 @@ const store = useStore()
 const router = useRouter() //router是进行路由跳转的
 const onGoDetail = () => {
   router.push({
-    name: 'detail',
+    name: 'Detail',
     query: {
       id: '1234567890',
     },
