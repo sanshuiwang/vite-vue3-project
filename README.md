@@ -45,7 +45,10 @@ https://stackoverflow.com/questions/70346829/eslint-vue-multiword-components?fro
 
 - 支持 main.js 引入.less 文件
   [css 在 vite 配置，javascriptEnabled 支持 js 引入.less](https://www.jianshu.com/p/4a76d68e16ec)
+
   记得创建全局样式覆盖一下看看：[less 覆盖全局变量](https://www.cnblogs.com/-roc/p/16212801.html)
+
+  [stylelint less vue3 vite](https://www.swvq.com/article/detail/471)
 
 # github 提交项目使用 Github Token
 
